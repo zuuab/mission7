@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7/mission7.csproj": {}
+    "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7.csproj": {}
   },
   "projects": {
-    "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7/mission7.csproj": {
+    "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7/mission7.csproj",
+        "projectUniqueName": "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7.csproj",
         "projectName": "mission7",
-        "projectPath": "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7/mission7.csproj",
+        "projectPath": "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7.csproj",
         "packagesPath": "/Users/zachheaton/.nuget/packages/",
-        "outputPath": "/Users/zachheaton/Documents/GitHub/mission7/mission7/mission7/obj/",
+        "outputPath": "/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zachheaton/.config/NuGet/NuGet.Config"
@@ -37,6 +37,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
