@@ -30,11 +30,18 @@
             <span class="navbar-brand ml-2">Books List</span>
         </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="row m-1 p-1">
+        <div id="types" class="col-3">
+            <vc:categories></vc:categories>
+        </div>
+
+        <div class="container col-9">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
+
 
     <footer class="border-top footer text-muted">
         <div class="container">

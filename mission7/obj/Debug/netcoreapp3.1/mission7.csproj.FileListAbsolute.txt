@@ -75,3 +75,9 @@
 /Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/mission7.pdb
 /Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/mission7.genruntimeconfig.cache
 /Users/zachheaton/Documents/GitHub/mission7/mission7/bin/Debug/netcoreapp3.1/libman.json
+/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_BasketLayout.cshtml.g.cs
+/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
+/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Cart.cshtml.g.cs
+/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Categories/Default.cshtml.g.cs

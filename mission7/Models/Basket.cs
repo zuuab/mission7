@@ -19,7 +19,8 @@ namespace mission7.Models
                 Items.Add(new BasketLineItem
                 {
                     Books = b,
-                    Quantity = qty
+                    Quantity = qty,
+                    Price = b.Price
                 });
             }
             else
@@ -28,11 +29,19 @@ namespace mission7.Models
             }
         }
 
+        public double CalculateTotal()
+        {
+            double sum = Items.Sum(x => x.Quantity * x.Price);
+
+            return sum;
+        }
+
         public class BasketLineItem
         {
             public int LineID { get; set; }
             public Books Books { get; set; }
             public int Quantity { get; set; }
+            public double Price { get; set; }
         }
     }
 }

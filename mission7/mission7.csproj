@@ -20,10 +20,17 @@
     <None Remove="Models\ViewModels\" />
     <None Remove="Infrastructure\" />
     <None Remove="Pages\" />
+    <None Remove="Components\" />
+    <None Remove="Views\Shared\Components\Types\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Categories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Pages\" />
+    <Folder Include="Components\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Categories\" />
   </ItemGroup>
 </Project>
