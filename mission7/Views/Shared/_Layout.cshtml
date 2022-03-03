@@ -4,11 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - mission7</title>
-    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />*@
     <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
 </head>
 <body>
+    <div class="bg-dark text-white p-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col navbar-brand">BOOK STORE</div>
+                <div class="col-5 text-right">
+                    <vc:basket-summary></vc:basket-summary>
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">

@@ -40,8 +40,15 @@ using mission7.Infrastructure;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "/Users/zachheaton/Documents/GitHub/mission7/mission7/Views/_ViewImports.cshtml"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"af26de00d5c4e2afd94a3beb5cd530b2cbd53076", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"40b67e39819bdcc37a645426a3602d82c7d9f627", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a5cfdc549bad7b5821a444b10c8d5ad3b03a50f", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<BooksViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "BookSummary", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -94,7 +101,7 @@ using mission7.Infrastructure;
 #line hidden
 #nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "af26de00d5c4e2afd94a3beb5cd530b2cbd530765824", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "af26de00d5c4e2afd94a3beb5cd530b2cbd530766005", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -125,7 +132,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = b;
 #line hidden
 #nullable disable
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af26de00d5c4e2afd94a3beb5cd530b2cbd530767544", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af26de00d5c4e2afd94a3beb5cd530b2cbd530767725", async() => {
                 WriteLiteral("\n");
             }
             );

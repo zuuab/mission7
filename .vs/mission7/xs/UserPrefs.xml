@@ -1,19 +1,6 @@
 ﻿<Properties StartupConfiguration="{557F13C7-A3E4-44FC-B1B4-BDCBE2462806}|Default">
   <MonoDevelop.Ide.ItemProperties.mission7 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="mission7/Pages/Cart.cshtml">
-    <Files>
-      <File FileName="mission7/Components/TypesViewComponent.cs" Line="20" Column="65" />
-      <File FileName="mission7/Views/Shared/_Layout.cshtml" Line="29" Column="45" />
-      <File FileName="mission7/Controllers/HomeController.cs" Line="41" Column="42" />
-      <File FileName="mission7/Views/Shared/Components/Categories/Default.cshtml" Line="6" Column="27" />
-      <File FileName="mission7/Startup.cs" Line="75" Column="1" />
-      <File FileName="mission7/Views/Shared/BookSummary.cshtml" Line="25" Column="14" />
-      <File FileName="mission7/Pages/Cart.cshtml" Line="21" Column="10" />
-      <File FileName="mission7/Pages/Cart.cshtml.cs" Line="43" Column="10" />
-      <File FileName="mission7/Pages/_BasketLayout.cshtml" Line="33" Column="32" />
-      <File FileName="mission7/Pages/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="mission7/Pages/_ViewStart.cshtml" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -21,17 +8,16 @@
             <Node name="mission7" expanded="True">
               <Node name="Components" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Purchase.cs" selected="True" />
+              </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Cart.cshtml" expanded="True" selected="True" />
+                <Node name="PurchaseCompleted.cshtml" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="Categories" expanded="True" />
-                  </Node>
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -40,8 +40,15 @@ using mission7.Infrastructure;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "/Users/zachheaton/Documents/GitHub/mission7/mission7/Views/_ViewImports.cshtml"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8983be6696f71a18d5df973718120f4d27656944", @"/Views/Shared/Components/Categories/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"40b67e39819bdcc37a645426a3602d82c7d9f627", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a5cfdc549bad7b5821a444b10c8d5ad3b03a50f", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Categories_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<string>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -75,7 +82,7 @@ using mission7.Infrastructure;
         {
             WriteLiteral("\n");
             WriteLiteral("\n<div class=\"d-grid gap-2\">\n\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8983be6696f71a18d5df973718120f4d276569445159", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8983be6696f71a18d5df973718120f4d276569445340", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -111,7 +118,7 @@ using mission7.Infrastructure;
 #line hidden
 #nullable disable
             WriteLiteral("        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8983be6696f71a18d5df973718120f4d276569447577", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8983be6696f71a18d5df973718120f4d276569447758", async() => {
 #nullable restore
 #line 13 "/Users/zachheaton/Documents/GitHub/mission7/mission7/Views/Shared/Components/Categories/Default.cshtml"
                                                                                                        Write(c);

@@ -1205,7 +1205,7 @@
       "outputPath": "/Users/zachheaton/Documents/GitHub/mission7/mission7/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/zachheaton/.config/NuGet/NuGet.Config"
+        "/Users/zachheaton/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
