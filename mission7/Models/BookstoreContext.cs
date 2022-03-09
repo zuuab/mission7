@@ -2,10 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
-// If you have enabled NRTs for your project, then un-comment the following line:
-// #nullable disable
-
 namespace mission7.Models
 {
     public partial class BookstoreContext : DbContext
@@ -19,7 +15,7 @@ namespace mission7.Models
         {
         }
 
-        public virtual DbSet<Books> Books { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
 
 
@@ -33,7 +29,7 @@ namespace mission7.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Books>(entity =>
+            modelBuilder.Entity<Book>(entity =>
             {
                 entity.HasKey(e => e.BookId);
 
@@ -41,8 +37,7 @@ namespace mission7.Models
                     .IsUnique();
 
                 entity.Property(e => e.BookId)
-                    .HasColumnName("BookID")
-                    .ValueGeneratedNever();
+                    .HasColumnName("BookID");
 
                 entity.Property(e => e.Author).IsRequired();
 

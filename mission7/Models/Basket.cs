@@ -9,7 +9,7 @@ namespace mission7.Models
     {
         public List<BasketLineItem> Items { get; set; } = new List<BasketLineItem>();
 
-        public virtual void AddItem(Books b, int qty)
+        public virtual void AddItem(Book b, int qty)
         {
             BasketLineItem line = Items
                 .Where(p => p.Books.BookId == b.BookId)
@@ -30,7 +30,7 @@ namespace mission7.Models
             }
         }
 
-        public virtual void RemoveItem(Books book)
+        public virtual void RemoveItem(Book book)
         {
             Items.RemoveAll(x => x.Books.BookId == book.BookId);
         }
@@ -51,7 +51,7 @@ namespace mission7.Models
         {
             [Key]
             public int LineID { get; set; }
-            public Books Books { get; set; }
+            public Book Books { get; set; }
             public int Quantity { get; set; }
             public double Price { get; set; }
         }

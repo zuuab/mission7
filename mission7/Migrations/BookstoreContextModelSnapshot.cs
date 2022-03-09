@@ -43,9 +43,10 @@ namespace mission7.Migrations
                     b.ToTable("BasketLineItem");
                 });
 
-            modelBuilder.Entity("mission7.Models.Books", b =>
+            modelBuilder.Entity("mission7.Models.Book", b =>
                 {
                     b.Property<long>("BookId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnName("BookID")
                         .HasColumnType("INTEGER");
 
@@ -116,6 +117,9 @@ namespace mission7.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("PurchaseReceived")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("State")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -130,7 +134,7 @@ namespace mission7.Migrations
 
             modelBuilder.Entity("mission7.Models.Basket+BasketLineItem", b =>
                 {
-                    b.HasOne("mission7.Models.Books", "Books")
+                    b.HasOne("mission7.Models.Book", "Books")
                         .WithMany()
                         .HasForeignKey("BooksBookId");
 
