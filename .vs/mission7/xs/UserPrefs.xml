@@ -4,8 +4,8 @@
     <Files>
       <File FileName="mission7/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="5955" Column="25" />
       <File FileName="mission7/Views/Shared/BookSummary.cshtml" Line="37" Column="11" />
-      <File FileName="mission7/Views/Shared/_Layout.cshtml" Line="7" Column="65" />
-      <File FileName="mission7/Pages/Admin/Details.razor" Line="5" Column="56" />
+      <File FileName="mission7/Views/Shared/_Layout.cshtml" />
+      <File FileName="mission7/Pages/Admin/Details.razor" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
