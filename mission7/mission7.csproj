@@ -14,6 +14,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.22" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +29,8 @@
     <None Remove="Views\Shared\Components\BasketSummary\" />
     <None Remove="Pages\Admin\" />
     <None Remove="Migrations\" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
@@ -40,5 +43,6 @@
     <Folder Include="Views\Shared\Components\BasketSummary\" />
     <Folder Include="Pages\Admin\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 </Project>
